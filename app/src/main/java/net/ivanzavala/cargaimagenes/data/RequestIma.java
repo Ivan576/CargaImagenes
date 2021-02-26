@@ -35,7 +35,7 @@ public class RequestIma {
         requestI = Volley.newRequestQueue(context);
     }
 
-    public void heroesRequests(){
+    public void cargaIRequests(){
         String linkImgenes = "https://simplifiedcoding.net/demos/view-flipper/heroes.php";
         JsonRequest jsonRequest = new JsonObjectRequest(
                 linkImgenes,
